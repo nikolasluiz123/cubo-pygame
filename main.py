@@ -27,7 +27,6 @@ def multiply_m(a, b):
 
     b_rows = len(b)
     b_cols = len(b[0])
-    # Dot product matrix dimentions = a_rows x b_cols
     product = [[0 for _ in range(b_cols)] for _ in range(a_rows)]
 
     if a_cols == b_rows:
